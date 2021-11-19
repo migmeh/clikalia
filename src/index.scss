@@ -1,0 +1,56 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+*{border:0px; margin:0px; padding:0px; box-sizing: border-box;}
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
+
+
+.s{clear: both;}
+.imagen{width:100%;}
+
+*{font-family:Arial;}
+
+.contx{width:100%;
+  background-color:#F2F4FF;}
+
+.bar{background-color:#566CD6;
+  float: left;
+  width:33%;
+  height:100vh;
+  padding:5%;
+  position:fixed;
+  z-index:1000000000;
+}
+.mylogo{max-width:150px; margin:0px auto;}
+.yourpfp{max-width:150px; margin:0px auto; padding:50px 0px 50px 0px;}
+
+
+.cont{background-color:#F2F4FF;
+  float: right;
+  width:66%;
+  padding:5%;
+}
+
+.yourinfo{text-align: center;}
+.yourname, .level{font-weight: bold; margin:0px 0px 2px 0px;}
+.level, .yourtext{opacity: 0.7;}
+
+.yourtext{opacity: 0.7; margin:20px 0px 0px 0px;}
+.yourname, .level, .yourtext{color:#FBFBFB;}
+
+@media screen and (max-width:600px) and (min-width:0px){
+
+
+  .cont{
+    width:100%;
+  }
+  .bar{display:none;}
+}
+
+

@@ -1,0 +1,105 @@
+@import '../../assets/sass/globals.scss';
+@import '../../assets/sass/pokemon_types.scss';
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    z-index: 1000;
+
+    .modal-main {
+        position: relative;
+        background: white;
+        width: 250px;
+        height: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $dark-gray;
+        border-radius: 5px;
+
+        .erro {
+            padding: 0 40px;
+            position: absolute;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+        }
+
+        .button {
+            display: inline-block;
+            border-radius: 5px;
+            background-color: #566CD6;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 5px 10px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .pkmn-image {
+            position: absolute;
+            height: 125px;
+            width: auto;
+            left: 0;
+        }
+
+        .pkmn-info {
+            display: grid;
+            position: relative;
+            float: right;
+            text-align: left;
+            margin: 20px 2px;
+            font-size: 14px;
+        }
+
+        .card-type {
+            font-size: 12px;
+            color: #FFFFFF;
+            padding: 10px 10px;
+            margin: 0 4px 0 0;
+            border-radius: 5px;
+        }
+
+        .pkmn-header{
+            background-color:  #566CD6;
+            height: 25px;
+            position: relative;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .pkmn-title {
+            position: fixed;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            top: 13px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 250px;
+        }
+
+        .pkmn-types {
+            margin-top: 2px;
+        }
+    }
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+

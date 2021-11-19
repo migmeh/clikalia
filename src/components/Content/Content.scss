@@ -1,0 +1,26 @@
+$light-gray: #edf3f8;
+$gray: #879395;
+$green: #1abc9c;
+$blue: #2d8abd;
+$yellow: #ffc000;
+
+.contx {
+  position: relative;
+
+  max-width: 100%;
+  float:right;
+  .cards-table {
+    max-width: 66%;
+    float:right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width:600px) and (min-width:0px){
+
+  .cards-table {
+    width: 100%;}
+}

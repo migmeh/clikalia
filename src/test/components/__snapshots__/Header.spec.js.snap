@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Should render correctly 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="search"
+  >
+    <input
+      className="search-filter"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Pokémon..."
+      type="text"
+    />
+    <button
+      className="search-button"
+      onClick={[Function]}
+      type="submit"
+    >
+      <i
+        className="fa fa-search search-icon"
+      />
+    </button>
+  </div>
+</div>
+`;
